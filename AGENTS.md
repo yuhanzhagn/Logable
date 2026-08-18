@@ -19,6 +19,8 @@
 - Keep modules and functions focused; avoid unrelated refactors.
 - Reuse existing utilities and patterns before introducing new ones.
 - Update documentation and tests when behavior or public interfaces change.
+- After every repository change, update `PLAN.md` to reflect completed work,
+  the current focus, and any newly discovered follow-up tasks.
 - Never hard-code secrets, credentials, tokens, or private data.
 - Do not modify generated files unless the project workflow requires it.
 
